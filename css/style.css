@@ -1,0 +1,78 @@
+.card {
+	border: solid #9fc2fc 2px;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom:10px;
+}
+
+.profile-pic {
+	max-width: 100%;
+	border: solid #9fc2fc 2px;
+}
+
+.shadow {
+	box-shadow: 4px 4px 2px #ccc;
+}
+
+.b {
+    list-style: none;
+}
+
+.space1 {
+	margin-top: 20px;
+}
+
+.space2 {
+	margin-bottom: 20px;
+}
+
+.space3 {
+	margin-top: 200px;
+}
+
+.space4 {
+	margin-bottom: 200px;
+}
+
+.headerfooter {
+	background-color: #e3e9f2;
+}
+
+.headings {
+	color: #9fc2fc;
+}
+
+.background {
+	background-image:url("../img/blueflowers.jpeg");
+	background-size: cover;
+	background-color: #b8d0e5;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footerfix {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #9fc2fc;
+  border-color: #9fc2fc;
+}
+
+.indextext {
+	color: white;
+	font-size: 75px;
+}
+
+.fit {
+	min-width: 80%;
+}
+
+.commentsize {
+	min-height: 100px;
+}
