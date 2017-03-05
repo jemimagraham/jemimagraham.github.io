@@ -2,10 +2,12 @@
 <head>
 	<title>Profile</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
+<!--   <link rel="stylesheet" href="css/fontawesome.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="animated fadeInUp">
   <nav class="navbar navbar-default headerfooter">
     <div class="container">
       <a class ="navbar-brand" href="index.html">Duck</a>
@@ -23,27 +25,37 @@
     <div class="row">
       <!--left column start-->
       <div class="col-md-4">
-      	<div class = "card text-center shadow">
-      		<img src = "img/duck.png" class = "profile-pic img-circle">
+      	<div class = "card-block text-center shadow lines">
+      		<img src = "img/duck.png" class = "img-circle">
       		<h2 class="headings">Ducks</h2>
-      		<p>I am duck. What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.</p>
+        <div class="card-footer animated fadeInUp">
+          <a>
+            <i class="fa fa-facebook-square fa-3x pad"></i>
+          </a>
+          <a>
+            <i class="fa fa-linkedin-square fa-3x pad"></i>
+          </a>
+          <a>
+            <i class="fa fa-twitter fa-3x pad"></i>
+          </a>
+        </div>
       	</div>
-      	<div class = "card shadow">
+      	<div class = "card-block shadow pad space1 space2 lines">
       		<h3 class ="text-center headings">Information</h3>
-          <a>
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a>
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a>
-           <i class="fa fa-facebook-square"></i>
-          </a>
-          <a>
-            <i class="fa fa-spotify"></i>
-          </a>
+          <p>
+            <i class="fa fa-map-marker"></i>
+            London, United Kingdom
+          </p>
+          <p>
+           <i class="fa fa-graduation-cap"></i>
+           Imperial College London
+          </p>
+          <p>
+            <i class="fa fa-heart"></i>
+            Physics
+          </p>
       	</div>
-        <div class = "card text-center shadow">
+        <div class = "card-block text-center shadow pad space1 space2 lines">
           <h3 class="headings">Skills</h3>
           <p class = "space1"><b>Skill 1</b></p>
           <div class="progress space2">
@@ -80,7 +92,7 @@
       <!--left column end-->
       <!--right column start-->
       <div class="col-md-8">
-        <div class = "card shadow">
+        <div class = "card-block shadow pad lines">
           <h3 class="headings">About me</h3>
           <p>What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.</p>
           <p>What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.</p>
@@ -88,7 +100,7 @@
         </div>
         <div class = "row">
           <div class = "col-md-12">
-            <div class= "card shadow">
+            <div class= "card-block shadow pad space1 space2 lines">
               <h3 class="space2 headings">Interests</h3>
               <h5><b>Interest 1</b></h5>
               <p>What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.</p>
@@ -98,9 +110,6 @@
               <p>What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.</p>
             </div>
           </div>
-        </div>
-        <div class="card shadow">
-          <h3 class="headings">Other section</h3>
         </div>
       </div>
       <!--right column end-->
