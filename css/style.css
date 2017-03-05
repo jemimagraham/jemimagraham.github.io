@@ -5,6 +5,12 @@
 	margin-bottom:10px;
 }
 
+.card-footer {
+	border: solid #e3e9f2 2px;
+	background-color: #e3e9f2;
+	padding: -20px;
+}
+
 .profile-pic {
 	max-width: 100%;
 	border: solid #9fc2fc 2px;
@@ -36,6 +42,7 @@
 
 .headerfooter {
 	background-color: #e3e9f2;
+	padding: 0px;
 }
 
 .headings {
@@ -75,4 +82,17 @@
 
 .commentsize {
 	min-height: 100px;
+}
+
+.pad {
+	padding: 20px;
+}
+
+.lines {
+	border: solid #e3e9f2 1px;
+}
+
+.fadeInUp {
+	-webkit-animation-duration:2s;
+	animation-duration:2s;
 }
