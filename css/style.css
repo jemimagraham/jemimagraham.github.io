@@ -12,8 +12,8 @@
 }
 
 .profile-pic {
-	max-width: 100%;
-	border: solid #9fc2fc 2px;
+	max-width: 70%;
+	margin-top: 20px;
 }
 
 .shadow {
@@ -40,6 +40,10 @@
 	margin-bottom: 200px;
 }
 
+.space5 {
+	margin-bottom: 27px;
+}
+
 .headerfooter {
 	background-color: #e3e9f2;
 	padding: 0px;
@@ -50,7 +54,7 @@
 }
 
 .background {
-	background-image:url("../img/blueflowers.jpeg");
+	background-image:url("../img/forgetmenot.jpeg");
 	background-size: cover;
 	background-color: #b8d0e5;
 	background-repeat: no-repeat;
@@ -71,9 +75,14 @@
   border-color: #9fc2fc;
 }
 
-.indextext {
+.indextext1 {
 	color: white;
 	font-size: 75px;
+}
+
+.indextext2 {
+	color: white;
+	font-size: 25px;
 }
 
 .fit {
@@ -95,4 +104,16 @@
 .fadeInUp {
 	-webkit-animation-duration:2s;
 	animation-duration:2s;
+}
+
+.leftgap {
+	margin-left: 20px;
+}
+
+.gap {
+	margin-left: 15px;
+}
+
+.image {
+	max-width: 70%;
 }
