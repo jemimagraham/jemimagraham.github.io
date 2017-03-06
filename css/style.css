@@ -1,8 +1,5 @@
 .card {
-	border: solid #9fc2fc 2px;
-	border-radius: 4px;
-	padding: 20px;
-	margin-bottom:10px;
+	background-color: white;
 }
 
 .card-footer {
@@ -44,6 +41,15 @@
 	margin-bottom: 27px;
 }
 
+.space6 {
+	margin-top: 250px;
+}
+
+.space7 {
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
 .headerfooter {
 	background-color: #e3e9f2;
 	padding: 0px;
@@ -56,14 +62,11 @@
 .background {
 	background-image:url("../img/forgetmenot.jpeg");
 	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
 	background-color: #b8d0e5;
 	background-repeat: no-repeat;
 	background-position: center;
-}
-
-.footerfix {
-	margin-bottom: 0px;
-	margin-top: 0px;
 }
 
 .btn {
@@ -97,6 +100,10 @@
 	padding: 20px;
 }
 
+.pad2 {
+	padding: 50px;
+}
+
 .lines {
 	border: solid #e3e9f2 1px;
 }
@@ -116,4 +123,15 @@
 
 .image {
 	max-width: 70%;
+}
+
+.background2 {
+	background-color: #e0ecff;
+}
+
+.footerfix {
+	position: fixed;
+	right: 0px;
+	bottom:0px;
+	left: 0px;
 }

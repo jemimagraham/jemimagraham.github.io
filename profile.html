@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body class="background2">
     <nav class="navbar navbar-default headerfooter">
       <div class="container">
         <a class ="navbar-brand" href="index.html">Jemima Graham</a>
@@ -28,41 +28,44 @@
       <div class="row">
         <!--left column start-->
         <div class="col-md-4">
-        	<div class = "card-block text-center shadow lines">
+        	<div class = "card card-block text-center shadow lines">
         		<img src = "img/meindevon.jpeg" class = "profile-pic img-circle">
         		<h2 class="headings">Jemima Graham</h2>
             <p>Physics student and coding enthusiast.</p>
-          <div class="card-footer">
-            <a href="https://www.facebook.com/jemima.graham.50">
-              <i class="fa fa-facebook-square fa-3x pad"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/jemima-graham-961366134/">
-              <i class="fa fa-linkedin-square fa-3x pad"></i>
-            </a>
-            <a href="https://twitter.com/JemimaGraham">
-              <i class="fa fa-twitter fa-3x pad"></i>
-            </a>
-            <a href="https://github.com/jemimagraham">
-              <i class="fa fa-github fa-3x pad"></i>
-            </a>
-          </div>
+            <button id="infoButton" class="btn btn-primary space2" onClick="toggleInfo();">Show Info</button>
+            <div class="card-footer">
+              <a href="https://www.facebook.com/jemima.graham.50">
+                <i class="fa fa-facebook-square fa-3x pad"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/jemima-graham-961366134/">
+                <i class="fa fa-linkedin-square fa-3x pad"></i>
+              </a>
+              <a href="https://twitter.com/JemimaGraham">
+                <i class="fa fa-twitter fa-3x pad"></i>
+              </a>
+              <a href="https://github.com/jemimagraham">
+                <i class="fa fa-github fa-3x pad"></i>
+              </a>
+            </div>
         	</div>
-        	<div class = "card-block shadow pad space1 space2 text-center lines">
-        		<h3 class ="text-center headings">Information</h3>
-            <p>
-              <a href="https://www.google.co.uk/maps/place/Imperial+College+London/@51.4987997,-0.1770659,17z/data=!3m1!4b1!4m5!3m4!1s0x48760567da220a01:0x31911b371c692e86!8m2!3d51.4987997!4d-0.1748772"><i class="fa fa-map-marker"></i></a>
-              South Kensington, London
-            </p>
-            <p>
-             <a href="https://www.imperial.ac.uk/"><i class="fa fa-graduation-cap"></i></a>
-             Imperial College London
-            </p>
-            <p>
-              <a href="#"><i class="fa fa-heart"></i></a>
-              Physics, Coding, Languages
-            </p>
+        	<div id="information" style="display:none">
+            <div class = "card card-block shadow pad space1 space2 lines"> 
+          		<h3 class ="headings">Information</h3>
+              <p>
+                <a href="https://www.google.co.uk/maps/place/Imperial+College+London/@51.4987997,-0.1770659,17z/data=!3m1!4b1!4m5!3m4!1s0x48760567da220a01:0x31911b371c692e86!8m2!3d51.4987997!4d-0.1748772"><i class="fa fa-map-marker"></i></a>
+                South Kensington, London
+              </p>
+              <p>
+               <a href="https://www.imperial.ac.uk/"><i class="fa fa-graduation-cap"></i></a>
+               Imperial College London
+              </p>
+              <p>
+                <a href="#"><i class="fa fa-heart"></i></a>
+                Physics, Coding, Languages
+              </p>
+            </div>
         	</div>
-          <div class = "card-block text-center shadow pad space1 space2 lines">
+          <div class = "card card-block shadow pad space1 space2 lines">
             <h3 class="headings">Skills</h3>
             <p class = "space1"><b>Python</b></p>
             <div class="progress space2">
@@ -94,22 +97,22 @@
         <!--left column end-->
         <!--right column start-->
         <div class="col-md-8">
-          <div class = "card-block shadow pad lines">
+          <div class = "card card-block shadow pad lines">
             <h3 class="headings">About me</h3>
             <p>I am an undergraduate at Imperial College London where I am on the MSci Physics with Theoretical Physics course. So far, I have found the course very enjoyable and have found the weekly assessed problems fascinating. I have also enjoyed the computing labs where I was first introduced to the coding language python. In these labs, I was set the task of plotting the trajectories and observing the behaviour of spacecraft around Mars and the Comet 67P. I would say that it was this project that gave me the 'coding-bug', especially as I obtained a first.</p>
           </div>
           <div class = "row">
             <div class = "col-md-12">
-              <div class= "card-block shadow pad space1 space2 lines">
+              <div class= "card card-block shadow pad space1 space2 lines">
                 <h3 class="space2 headings">Interests</h3>
                 <h5><b>Coding</b></h5>
                 <p>I have some experience coding in python through computing labs. Since finishing labs, I have started an online course focusing on building ten real-world applications using python. I particularly like this course because it demonstrates how useful python is in our day-to-day lives. Furthermore, I have also completed a course on HTML & CSS by the organisation 'CodeatUni'. This course taught me the skills necessary to design a website. Now, I am looking to complete a Javascript course to further expand my web development skills.</p>
                 <h5><b>Languages</b></h5>
                 <p>Another of my hobbies is learning languages. Upon completion of my A-Levels, I continued to study french as an extra-cuuricular subject at university. I have also maintained a conversational level of spanish since my GCSEs and have started to teach myself basic russian.</p>
                 <h5><b>Netball</b></h5>
-                <p class="space5">I play netball socially and compete as part of a team against other universities. It is a great way of meeting new people.</p>
+                <p>I play netball socially and compete as part of a team against other universities. It is a great way of meeting new people.</p>
               </div>
-              <div class= "card-block shadow pad space1 space2 lines">
+              <div class= "card card-block shadow pad space1 space2 lines">
                 <h3 class="headings">Portfolio</h3>
                 <a href="portfolio.html"><p><b>Most recent project</b></p></a>
                 <a href="portfolio.html"><img src="img/forgetmenot.jpeg" class="image"></a>
@@ -121,9 +124,11 @@
       </div>
     </div>
     <div class="footer-bottom headerfooter animated fadeInUp">
-      <div class="container">
+        <div class="container">
           <p class="navbar-text pull-right">© 2017 - Jemima Graham</p>
         </div>
     </div>
+    <script type="text/javascript" src="./js/website2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </body>
 </html>
